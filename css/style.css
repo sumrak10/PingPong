@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+#canvas {
+    display: block;
+}
+.start_page {
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    align-items: center;
+}
+.start_text {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    font-size: 10vh;
+    border: red 1px solid;
+}
